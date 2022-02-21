@@ -1,0 +1,23 @@
+.banner {
+    background: #EEE4DB;
+}
+
+.banner__img {
+    position: absolute;
+    width: 635.49px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+}
+
+.banner__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    margin: 0;
+}
+
+.banner_desc {
+
+}
