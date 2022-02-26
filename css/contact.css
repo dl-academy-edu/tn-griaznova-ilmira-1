@@ -1,0 +1,16 @@
+.contact__title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.contact__form{
+    width: 680px;
+    background: #E5EAF8;
+    margin: 0 auto;
+    padding: 65px 40px;
+}
+
+

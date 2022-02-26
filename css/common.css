@@ -1,5 +1,128 @@
-.container {
-    max-width: 1180px;
-    width: 100%;
-    margin: 0 auto;
+/* breadcrumb */
+.breadcrumbs {
+    padding: 15px 110px;
+    background-color: #fff;
 }
+
+.breadcrumbs li {
+    display: inline;
+    font-size: 18px;
+}
+
+.breadcrumbs li {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #8f8383;
+}
+
+.breadcrumbs li a {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    text-decoration: none;
+}
+
+  /* button */
+.button {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    display: flex;
+    padding: 9px 22px;
+    max-width: 106px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* CONTACT */
+.undotted {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    font-size: 0;
+    line-height: 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+textarea {
+    border: 1px solid #cccccc;
+    background: transparent;
+    font-size: 18px;
+    line-height: 25px;  
+    padding: 11px 20px;
+    resize: none;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-bottom: 3px;
+}
+
+.input-color::placeholder {
+    color: #1E0606;
+}
+
+.field_2-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field_2-column .label-wrapper input {
+    max-width: 200px;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="checbox"] {
+    display: none;
+}
+
+.checkbox__list {
+    display: flex;
+    margin: 20px 0;
+}    
+
+.checkbox-label {
+    padding-left: 35px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.checkbox-label:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border: 2px solid #C29974;
+    background: transparent;
+}
+
