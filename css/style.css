@@ -1,23 +1,100 @@
+/* баннер */
 .banner {
     background: #EEE4DB;
+    z-index: 1;
+    margin-top: 89px;
+    height: 411px;
+    display: flex;
+    align-items: flex-start;
 }
 
-.banner__img {
-    position: absolute;
-    width: 635.49px;
-    height: 461px;
-    left: 555px;
-    top: 142px;
+.banner__nav {
+    padding-left: 31px;
+    padding-top: 110px;
+}
+.banner__front {
+    padding-left: 71px;
+    padding-top: 89px;
+    z-index: 2;
 }
 
-.banner__title {
+.banner img {
+    align-self: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    z-index: 3;
+}
+
+.banner__nav {
+    border: none;
+    background: none;
+}
+
+.banner__info {
+    align-self: flex-end;
+    justify-content: center;
+    background: #c29974;
+    height: 39px;
+    left: 110px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0 11px;
+    z-index: 4;
+}
+
+/* категории продуктов */
+
+.categories__title {
     font-weight: bold;
-    font-size: 40px;
-    line-height: 110%;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
     color: #1E0606;
-    margin: 0;
+    margin: 90px 0 30px;
 }
 
-.banner_desc {
-
+.categories__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
 }
+
+.categories__nav li{
+    height: 280px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories__nav a{
+    padding: 15%;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.categories__item1 {
+    background: url('../images/index/category/catrgory1.png') center no-repeat #DBE4DB;
+}
+
+.categories__item2 {
+    background: url('../images/index/category/catrgory2.png') center no-repeat #EADDD3;
+}
+
+.categories__item3 {
+    background: url('../images/index/category/catrgory3.png') center no-repeat #F8F2DA;
+}
+
+.categories__item4 {
+    background: url('../images/index/category/catrgory4.png') center no-repeat #D5D4E1;
+}
+
+

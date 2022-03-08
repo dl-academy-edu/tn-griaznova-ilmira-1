@@ -1,3 +1,108 @@
+/*Шривт для всего наборного шрифта на всей странице, лекция 4, где то в начале, 
+сайт: https://fonts.google.com/specimen/Robotohttps://fonts.google.com/specimen/Roboto , 
+смотрим всё что нужно выбираем и добавляем html d html, а графу css в css, в (*) - в основном 
+текст наборного шрифта, а в классы отдельные индивидумы  */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* выравнивает всё по середине, на определённом растоянии*/
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* на сылках убрать подчёркивания */
+a {
+    text-decoration: none;
+}
+
+/* списки (liшки) без точек и вообще оформление списков */
+.undotted {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+  /* button */
+.button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    display: flex;
+    padding: 9px 22px;
+    max-width: 160px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background: #C29974;
+}
+
+.button:active {
+    background: #CFAF91;
+}
+
+.button:disabled {
+    background: #C7C1C1;
+}
+
+
+
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 40px;
+}
+
+.header nav {
+    margin: 0 auto 0 60px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__link-1, 
+.header__link-2 {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    text-transform: uppercase;
+}
+
+.header__link-1 {
+    margin-right: 20px;
+}
+
+.header__link-2 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* breadcrumb */
 .breadcrumbs {
     padding: 15px 110px;
@@ -29,23 +134,13 @@
     text-decoration: none;
 }
 
-  /* button */
-.button {
-    font-family: Open Sans;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #000000;
-    display: flex;
-    padding: 9px 22px;
-    max-width: 106px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    width: 100%;
-}
+
+
+
+
+
+
+
 
 /* CONTACT */
 .undotted {

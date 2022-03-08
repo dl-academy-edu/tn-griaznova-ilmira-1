@@ -5,45 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header container">
         <img src="images/header/logo.png" alt="">
         <nav>
-            <ul class="header__nav">
+            <ul class="header__nav undotted">
                 <li>
-                    <a href="#" class="header__link">Blog</a>
+                    <a href="blog.html" class="header__link-1">Blog</a>
                 </li>
                 <li>
-                    <a href="#" class="header__link">Catalog</a>
+                    <a href="catalog.html" class="header__link-1">Catalog</a>
                 </li>
                 <li>
-                    <a href="#" class="header__link">About Us</a>
+                    <a href="#" class="header__link-1">About Us</a>
                 </li>
             </ul>
         </nav>
-        <img src="images/header/search.png" alt="">
-        <a href="contact.html" class="header__link">Contact  Us</a>
+        <a href="#"><img src="images/header/search.png" alt="#" class="header__look"></a>
+        <a href="contact.html" class="header__link-2">Contact  Us</a>
     </header>
+
     <main class="container">
         <section class="banner">
-            <img class="banner__img" src="images/banner/monster.png" alt="">
-            <div class="rectangule"> 
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
+            <nav>
+                <ul class='banner__nav undotted'>
+                    <li><button class="header__button-1"></button></li>
+                    <li><button class="header__button-1"></button></li>
+                    <li><button class="header__button-1"></button></li>
+                    <li><button class="header__button-1"></button></li>
+                </ul>
+            </nav>
+            <div class="banner__front">
+                <h1 class="banner_title">THE OOH NOO COLLECTION</h1>
+                <p class="banner_text">Designed in Slovenia</p>
+                <button class="button">EXPLORE NOW</button>
             </div>
-            <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
-            <p>Designed in Slovenia</p>
-            <button class="button">EXPLORE NOW</button>
-            <p class="banner__desc">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            <div class=banner__info>
+                <p>Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            </div>
+            <img src="images/index/banner/monster.png" alt="">
         </section>
+
         <section class="categories">
             <h2 class="categories__title">Category Products</h2>
             <nav>
-                <ul class="categories__list">
+                <ul class="categories__nav undotted">
                     <li class="categories__item1">                       
                         <a href="">APPAREL KIDS</a>
                     </li>
@@ -64,7 +76,8 @@
             Curated goods by unique designers around
             the world from fashion to furniture for kids
             and adults.</p>
-        </section>        
+        </section>
+
         <section class="history">
             <div>
                 <img src="images/delivery/women.jpg" alt="">
