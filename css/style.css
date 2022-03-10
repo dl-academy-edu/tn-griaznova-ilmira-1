@@ -18,6 +18,14 @@
     z-index: 2;
 }
 
+.banner_title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner_text {
+    font-family: 'Crimson Pro', serif;
+}
+
 .banner img {
     align-self: flex-end;
     justify-content: flex-end;
@@ -32,6 +40,7 @@
 }
 
 .banner__info {
+    font-family: 'Open Sans', sans-serif;
     align-self: flex-end;
     justify-content: center;
     background: #c29974;
@@ -49,6 +58,7 @@
 /* категории продуктов */
 
 .categories__title {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
@@ -60,10 +70,11 @@
 .categories__nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .categories__nav li{
+    font-family: 'Montserrat', sans-serif;
     height: 280px;
     width: 270px;
     display: flex;
@@ -97,4 +108,88 @@
     background: url('../images/index/category/catrgory4.png') center no-repeat #D5D4E1;
 }
 
+.categories__button {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+}
 
+.categories_button1 {
+    margin-right: 6px;
+}
+
+.categories_text {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 14px;
+}
+
+/* История */
+.history {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+}
+
+.history__text {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 120px;
+}
+
+.history_h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.histore_brief p,
+.histore_brief1 p {
+    font-family: 'Crimson Pro', serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    margin-bottom: 22px;
+}
+
+.histore_brief1 p{
+    font-weight: bold
+}
+
+.histore_text1,
+.histore_text2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    
+}
+
+.histore_text1 {
+    margin-top: 30px;
+    padding: 0 21% 0 0;
+}
+
+.histore_text2 {
+    margin-top: 15px;
+    margin-bottom: 26px;
+    padding: 0 135px 0 0;
+}
+
+/* компании */
+.company_li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 91px;
+}
+
+/* информация */
+.information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 242px;
+}
