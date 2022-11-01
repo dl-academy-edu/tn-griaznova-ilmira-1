@@ -276,12 +276,14 @@
     margin-top: -11px;
 }
 
-.slider:focus::-webkit-slider-runnable-track {
-    background: #C29974;
-}
-
 .slider::-webkit-slider-runnable-track  {
     height: 4px;
     background-color: #73757C;
 }
+
+.slider:focus::-webkit-slider-runnable-track {
+    background: #C29974;
+}
+
+
 
