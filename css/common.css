@@ -13,6 +13,12 @@
     margin: 0 auto;
 }
 
+.container-max {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* на сылках убрать подчёркивания */
 a {
     text-decoration: none;
@@ -362,7 +368,7 @@ input[type=radio] {
 	display: block;
 	border: 2px solid #C29974;
 	border-radius: 50%;
-	margin: 0 15px 0 0;
+	margin: 0 10px 0 0;
 }
 
 .radio-label::after {

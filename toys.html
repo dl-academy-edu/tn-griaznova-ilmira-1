@@ -41,7 +41,7 @@
             <li><p>Toys</p></li>
         </ul>
         </div>
-        <div class="settings__background">
+        <div class="settings__background container-max">
             <div class="container">
                 <div class="settings__options">
                     <div class="settings__cost">
@@ -49,7 +49,7 @@
                         <input class="slider" type="range" id="cost" min="0" max="500" value="110" step="10">
                         <div class="settings__number">
                             <span>0</span>
-                            <span>500</span>
+                            <span class="settings__number-500">500</span>
                         </div>
                     </div>
                     <div class="settings__color">
@@ -90,7 +90,7 @@
                         <h3>Amount</h3>
                         <div class="settings__line">
                             <ul class="buttons undotted">
-                                <li class="buttons__item">
+                                <li class="buttons__item buttons__item-min">
                                     <input type="radio" id="amount_five" name="amount-radio" class="radio-input_button" checked>
                                     <label for="amount_five" class="radio-label_button">0-5</label>
                                 </li>
@@ -105,7 +105,7 @@
                             </ul>
                         </div>
                     </div>
-                    <button type="submit" class="button">Apply</button>
+                    <button type="submit" class="button settings__button">Apply</button>
                 </div>
             </div>
         </div>
@@ -190,7 +190,7 @@
             </ul>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer container-max">
         <div class="footer__basic container">
             <div class="footer_basic1 undotted">
                 <p class="footer-title">Navigation</p>

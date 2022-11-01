@@ -17,7 +17,7 @@
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 22px;
-	margin: 0 0 15px 0;
+	margin: 0 0 12px 0;
 }
 
 .settings__options span,
@@ -31,16 +31,18 @@
 }
 
 .settings__cost input{
-	margin: 0 0 6px 0;
+	margin: 0 0 6px 5px;
 }
 
 .settings__number{
-	-webkit-display: flex;
-	-moz-display: flex;
-	-ms-display:flex;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 7px;
+}
+
+.settings__number-500 {
+	margin-left: 170px;
 }
 
 .settings__color{
@@ -56,7 +58,7 @@
 }
 
 .settings__delivery{
-	margin: 0 69px 0 0;
+	margin: 0 9px 0 0;
 }
 
 .settings__delivery li{
@@ -68,7 +70,7 @@
 }
 
 .settings__amount{
-	margin: 0 60px 0 0;
+	margin: 0 0 0 60px;
 }
 
 .settings__amount ul{
@@ -78,7 +80,7 @@
 	display: flex;
 }
 
-.settings__line{
+.settings__line {
 	-webkit-display: flex;
 	-moz-display: flex;
 	-ms-display:flex;
@@ -86,7 +88,11 @@
 	align-items: flex-start;
 }
 
-.buttons{
+.settings__button{
+	margin-top: 35px;
+}
+
+.buttons {
 	margin: 0 60px 0 0;
 }
 
@@ -95,7 +101,12 @@
 }
 
 .buttons__item label{
-	padding: 7px 28px;
+	padding: 7px 19px 7px 20px;
+	background: #FFFFFF;
+}
+
+.buttons__item-min label{
+	padding: 7px 28px 7px 29px;
 	background: #FFFFFF;
 }
 
@@ -213,7 +224,7 @@
 	height: 15px;
 	border: 2px solid #C29974;
 	border-radius: 3px;
-	margin: 0 15px 0 0;
+	margin: 1px 11px 0 0;
 }
 
 .checkbox__label-toys::after {
@@ -244,42 +255,33 @@
 }
 
 /* ползунок */
-input[type=range]  {
-	width: 188px;
-	appearance: none;
-	outline: none;
-	overflow: hidden;
-	height: 4px;
-}
 
-input[type=range]::-webkit-slider-runnable-track {
-	height: 4px;
-	background-color: #73757C;
-}
-
-input[type=range]::-webkit-slider-thumb {
-	background: white;
-	cursor: pointer;
-	width: 15px;
-	height: 15px;
-	appearance: none;
-	margin-top: -4px;
-	box-shadow: -200px  0 0 200px  #C29974;
-}
-
-input[type=range]::-moz-range-track {
-	height: 4px;
-	background-color: #73757C;
+.slider {
+    appearance: none;
+    width: 188px;
+    cursor: pointer;
+    height: 4px;
+    margin-top: 24px;
 }
 
 
-input[type=range]::-moz-range-thumb {
-	background: white;
-	cursor: pointer;
-	height: 4px;
-	border-radius:5px;
-	box-shadow: -200px  0px 0px 200px   #C29974;
-	padding: 0px;
-	margin: 0px;
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    border: 9px solid #C29974;
+    height: 24px;
+    width: 24px;
+    border-radius: 38px;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-top: -11px;
+}
+
+.slider:focus::-webkit-slider-runnable-track {
+    background: #C29974;
+}
+
+.slider::-webkit-slider-runnable-track  {
+    height: 4px;
+    background-color: #73757C;
 }
 
